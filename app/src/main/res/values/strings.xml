@@ -2,4 +2,5 @@
     <string name="app_name">SightSavers</string>
     <string name="Button1_Text">Vision Simulator</string>
     <string name="Button2_Text">Eye Diseases</string>
+    <string name="Button3_Text">Donate</string>
 </resources>
