@@ -25,5 +25,8 @@
         <item>@color/dot_inactive_screen2</item>
         <item>@color/dot_inactive_screen3</item>
     </array>
+    <color name="back">#cecdc8</color>
+    <color name="backWrite">#6b6b69</color>
+    <color name="myOrange">#ff8b1f</color>
 
 </resources>
