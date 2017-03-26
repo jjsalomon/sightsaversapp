@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">SightSavers</string>
-    <string name="Button1_Text">Eye Test</string>
-    <string name="Button2_Text">Other</string>
+    <string name="Button1_Text">Vision Simulator</string>
+    <string name="Button2_Text">Eye Diseases</string>
 </resources>

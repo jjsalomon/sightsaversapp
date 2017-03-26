@@ -18,9 +18,10 @@
         android:background="@color/myYellow"
         android:textColor="@color/Black"
         android:id="@+id/button1"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="101dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
 
     <Button
         android:text="@string/Button2_Text"
