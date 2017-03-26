@@ -3,4 +3,9 @@
     <string name="Button1_Text">Vision Simulator</string>
     <string name="Button2_Text">Eye Diseases</string>
     <string name="Button3_Text">Donate</string>
+    <string name="Diseases_Text">Choose a Disease to learn more!</string>
+    <string name="Button4_Text">Trachoma</string>
+    <string name="Button5_Text">River Blindness</string>
+    <string name="Button6_Text">Cataract</string>
+    <string name="Button7_Text">Glaucoma</string>
 </resources>
