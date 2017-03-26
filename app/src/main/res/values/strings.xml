@@ -2,4 +2,15 @@
     <string name="app_name">SightSavers</string>
     <string name="Button1_Text">Eye Test</string>
     <string name="Button2_Text">Other</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_test">Test</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="slide_1_title">Title 1</string>
+    <string name="slide_1_desc">Descripton example blah blah blah</string>
+    <string name="slide_2_title">Slide 2 Title</string>
+    <string name="slide_2_desc">Description 2 blah blah blah</string>
+    <string name="slide_3_title">Slide 3 Title</string>
+    <string name="slide_3_desc">Slide 3 description blah blah</string>
+    <string name="start">GOT IT</string>
 </resources>
