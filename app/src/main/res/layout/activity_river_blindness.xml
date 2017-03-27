@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,4 +16,43 @@
         android:textColor="@color/Black"
         android:layout_marginTop="17dp"
         android:text="@string/Button5_Text" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:src="@drawable/juliana" />
+
+    <TextView
+        android:id="@+id/river_tViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/backWrite"
+        android:gravity="center_horizontal"
+        android:text="@string/Juliana_Text"
+        android:padding="10dp"
+        android:layout_marginTop="189dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/RiverB_Text"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:layout_below="@+id/river_tViewID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
 </RelativeLayout>

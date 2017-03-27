@@ -39,11 +39,11 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="74dp"
-        android:onClick="donate"
-        android:background="@drawable/mybutton"
-        android:text="@string/Button3_Texxt"
-        android:padding="20dp"
         android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/mybutton"
+        android:onClick="donate"
+        android:padding="20dp"
+        android:text="@string/Button3_Text" />
 </RelativeLayout>
