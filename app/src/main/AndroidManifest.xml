@@ -28,8 +28,14 @@
         <activity android:name=".RiverBlindness" />
         <activity android:name=".Cataract" />
         <activity android:name=".Glaucoma" />
+        <activity android:name=".MyListActivity"/>
         <activity android:name=".MakingDifference"
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity
+            android:name=".YouTubeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button Diseases;
     Button makingDiff_button;
@@ -64,7 +64,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
 
             case R.id.making_bt_id:{
-                Intent differenceIntent = new Intent(this, MakingDifference.class);
+                Intent differenceIntent = new Intent(this, MyListActivity.class);
                 startActivity(differenceIntent);
 
                 break;
