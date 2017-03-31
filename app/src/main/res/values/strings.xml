@@ -3,6 +3,7 @@
     <string name="Button1_Text">Vision Simulator</string>
     <string name="Button2_Text">Eye Diseases</string>
     <string name="Button3_Text">Donate</string>
+    <string name="MakingDiff_btText">Making a Difference</string>
     <string name="title_activity_rules">Rules</string>
     <string name="title_activity_test">Test</string>
     <string name="next">NEXT</string>
