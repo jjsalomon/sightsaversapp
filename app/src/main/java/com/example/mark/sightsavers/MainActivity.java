@@ -16,7 +16,7 @@ import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     Button Diseases;
-
+    Button makingDiff_button;
     Button start_button;
     Button education_button;
 
@@ -38,10 +38,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
         });
 
-
+        // Find Button Views
         Diseases = (Button) findViewById(R.id.button2);
+        makingDiff_button = (Button) findViewById(R.id.making_bt_id);
 
+        // Set Button Listeners
         Diseases.setOnClickListener(this);
+        makingDiff_button.setOnClickListener(this);
     }
 
     public void donate(View view){
@@ -56,6 +59,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.button2: {
                 Intent diseaseIntent = new Intent(this, Diseases.class);
                 startActivity(diseaseIntent);
+
+                break;
+            }
+
+            case R.id.making_bt_id:{
+                Intent differenceIntent = new Intent(this, MakingDifference.class);
+                startActivity(differenceIntent);
 
                 break;
             }
