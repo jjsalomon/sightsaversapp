@@ -18,24 +18,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Rules"
+            android:name=".fragment.visionsimulator.Rules"
             android:label="@string/title_activity_rules" />
         <activity
-            android:name=".Test"
+            android:name=".fragment.visionsimulator.ShowTest1"
             android:label="@string/title_activity_test" />
         <activity android:name=".Diseases" />
         <activity android:name=".Trachoma" />
         <activity android:name=".RiverBlindness" />
         <activity android:name=".Cataract" />
         <activity android:name=".Glaucoma" />
-        <activity android:name=".MyListActivity"/>
-        <activity android:name=".MakingDifference"
-            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name=".MyListActivity" />
+        <activity
+            android:name=".MakingDifference"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
         <activity
             android:name=".YouTubeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name=".fragment.visionsimulator.ShowTest2"
+            android:label="@string/title_activity_show_test2" />
     </application>
 
 </manifest>

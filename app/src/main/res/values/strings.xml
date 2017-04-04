@@ -30,4 +30,6 @@
     <string name="error_init_failure">Initialization failure: Unable to play video</string>
     <string name="Glaucoma_Text">Glaucoma is a group of multiple eye conditions. It is usually caused when your eyes’ drainage tubes block, causing pressure which can damage the optic nerve. It’s treatable with eye drops, laser treatment or surgery, but it needs to be caught as early as possible. Although treatment can control it, any damage it’s already caused to your sight can’t be reversed.</string>
     <string name="Cataract_Text">Cataract is caused by a buildup of protein that clouds the eye’s lens, leading to blurred vision and eventually blindness. For children, it’s vital that it’s caught in time, or it can cause the eye to stop developing, after which it can never be properly restored. Untreated cataract can mean no education, no income, no future and no possibility of escaping poverty.</string>
+    <string name="sim_question">What do you see ?</string>
+    <string name="title_activity_show_test2">ShowTest2</string>
 </resources>
