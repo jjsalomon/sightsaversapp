@@ -18,7 +18,7 @@
         android:background="@color/myYellow"
         android:textColor="@color/Black"
         android:id="@+id/button1"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="40dp"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2" />
@@ -30,7 +30,7 @@
         android:background="@color/myYellow"
         android:textColor="@color/Black"
         android:id="@+id/button2"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="60dp"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true" />
 
@@ -39,7 +39,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/mybutton"
         android:onClick="donate"
         android:padding="20dp"
@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="60dp"
         android:text="@string/MakingDiff_btText"
         android:background="@color/myYellow"
         android:textColor="@color/Black"

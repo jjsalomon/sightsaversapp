@@ -3,10 +3,11 @@ package com.example.mark.sightsavers;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class Diseases extends Activity implements View.OnClickListener {
+public class Diseases extends AppCompatActivity implements View.OnClickListener {
 
     Button Trachoma_Bt, River_Bt, Cataract_Bt, Glaucoma_Bt;
 
