@@ -7,12 +7,11 @@
     tools:context="com.example.mark.sightsavers.Diseases">
 
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/img2"
+        android:src="@drawable/img3"
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="28dp"
         android:layout_weight="2"
@@ -30,33 +29,43 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteY="326dp"
         tools:layout_editor_absoluteX="4dp"
-        android:layout_marginBottom="21dp"
         android:id="@+id/textView2"
-        android:layout_above="@+id/deer"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
+        android:layout_above="@+id/btnsix"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:id="@+id/five"
+        android:id="@+id/btntwo"
         android:layout_width="105dp"
         android:layout_height="84dp"
-        android:text="5"
+        android:text="2"
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="408dp"
-        android:layout_alignTop="@+id/cow"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnsix"
+        android:layout_toStartOf="@+id/btnsix" />
+
 
     <Button
-        android:id="@+id/six"
+        android:id="@+id/btnsix"
         android:layout_width="106dp"
         android:layout_height="83dp"
         android:text="6"
         tools:layout_editor_absoluteX="229dp"
         tools:layout_editor_absoluteY="408dp"
-        android:layout_marginBottom="24dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btntwntysix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26"
+        android:layout_alignBottom="@+id/btnsix"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/btnsix"
+        android:layout_toEndOf="@+id/btnsix" />
 
 </RelativeLayout>

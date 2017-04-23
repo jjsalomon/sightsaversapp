@@ -1,6 +1,5 @@
-package com.example.mark.sightsavers.fragment.visionsimulator;
+package com.example.mark.sightsavers.visionsimulator.vsimulator;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;

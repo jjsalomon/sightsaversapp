@@ -1,4 +1,4 @@
-package com.example.mark.sightsavers.fragment.visionsimulator;
+package com.example.mark.sightsavers.visionsimulator.vsimulator;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,19 +8,16 @@ import android.widget.Button;
 
 import com.example.mark.sightsavers.R;
 
-
-
 public class ShowTest2 extends Activity implements View.OnClickListener {
 
     Button fivebtn;
     Button sizebtn;
-    ResultsData data;
+    ResultsData data = ResultsData.getFirstInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_show_test2);
-        data = new ResultsData();
+        setContentView(R.layout.activity_test2);
 
         fivebtn = (Button)findViewById(R.id.five);
         sizebtn = (Button)findViewById(R.id.six);
@@ -34,16 +31,13 @@ public class ShowTest2 extends Activity implements View.OnClickListener {
         switch (v.getId()) {
 
             case R.id.five:{
-                Intent intent = new Intent(this,ShowTest2.class);
-                data.addData("Five");
+                Intent intent = new Intent(this,ShowTest3.class);
                 startActivity(intent);
             }
 
-            case R.id.deer:{
-                Intent intent = new Intent(this,ShowTest2.class);
-                data.addData("Six");
+            case R.id.six:{
+                Intent intent = new Intent(this,ShowTest3.class);
                 startActivity(intent);
-
             }
 
         }

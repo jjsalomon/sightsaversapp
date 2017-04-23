@@ -6,11 +6,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.mark.sightsavers.Diseases">
 
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/img1"
+        android:src="@drawable/img2"
         tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="28dp"
         android:layout_weight="2"
@@ -22,34 +24,33 @@
         android:paddingTop="30dp"
         android:paddingLeft="55dp"
         android:layout_height="wrap_content"
-        android:text="@string/sim_question"
+        android:text="What number do you see ?"
         android:textColor="@android:color/black"
         android:textSize="@dimen/slide_title"
         android:textStyle="bold"
         tools:layout_editor_absoluteY="326dp"
         tools:layout_editor_absoluteX="4dp"
-        android:layout_marginBottom="21dp"
         android:id="@+id/textView2"
-        android:layout_above="@+id/deer"
+        android:layout_above="@+id/six"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="105dp"
+        android:layout_height="84dp"
+        android:text="5"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="408dp"
+        android:layout_alignTop="@+id/six"
         android:layout_alignRight="@+id/imageView"
         android:layout_alignEnd="@+id/imageView" />
 
     <Button
-        android:id="@+id/deer"
-        android:layout_width="105dp"
-        android:layout_height="84dp"
-        android:text="Deer"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="408dp"
-        android:layout_alignTop="@+id/cow"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
-
-    <Button
-        android:id="@+id/cow"
+        android:id="@+id/six"
         android:layout_width="106dp"
         android:layout_height="83dp"
-        android:text="Cow"
+        android:text="6"
         tools:layout_editor_absoluteX="229dp"
         tools:layout_editor_absoluteY="408dp"
         android:layout_marginBottom="24dp"

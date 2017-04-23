@@ -17,12 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".fragment.visionsimulator.Rules"
-            android:label="@string/title_activity_rules" />
-        <activity
-            android:name=".fragment.visionsimulator.ShowTest1"
-            android:label="@string/title_activity_test" />
+        <activity android:name=".visionsimulator.vsimulator.Rules" />
+        <activity android:name=".visionsimulator.vsimulator.ShowTest1"/>
+        <activity android:name=".visionsimulator.vsimulator.ShowTest2" />
+        <activity android:name=".visionsimulator.vsimulator.ShowTest3" />
+        <activity android:name=".visionsimulator.vsimulator.ShowResults" />
         <activity android:name=".Diseases" />
         <activity android:name=".Trachoma" />
         <activity android:name=".RiverBlindness" />
@@ -36,9 +35,9 @@
             android:name=".YouTubeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".fragment.visionsimulator.ShowTest2"
-            android:label="@string/title_activity_show_test2" />
+
+
+
     </application>
 
 </manifest>
