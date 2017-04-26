@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".visionsimulator.vsimulator.Rules" />
-        <activity android:name=".visionsimulator.vsimulator.ShowTest1"/>
+        <activity android:name=".visionsimulator.vsimulator.ShowTest1" />
         <activity android:name=".visionsimulator.vsimulator.ShowTest2" />
         <activity android:name=".visionsimulator.vsimulator.ShowTest3" />
         <activity android:name=".visionsimulator.vsimulator.ShowResults" />
@@ -35,9 +35,12 @@
             android:name=".YouTubeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
-
-
-
+        <activity
+            android:name=".visionsimulator.vsimulator.ShowResults2"
+            android:label="@string/title_activity_show_results2" />
+        <activity
+            android:name=".visionsimulator.vsimulator.ShowResults3"
+            android:label="@string/title_activity_show_results3"></activity>
     </application>
 
 </manifest>

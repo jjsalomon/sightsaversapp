@@ -34,12 +34,12 @@ public class ShowTest1 extends Activity implements View.OnClickListener{
         switch (v.getId()) {
 
             case R.id.cow:{
-                Intent intent = new Intent(this,ShowTest2.class);
+                Intent intent = new Intent(this,ShowResults.class);
                 startActivity(intent);
             }
 
             case R.id.deer:{
-                Intent intent = new Intent(this,ShowTest2.class);
+                Intent intent = new Intent(this,ShowResults.class);
                 startActivity(intent);
 
             }

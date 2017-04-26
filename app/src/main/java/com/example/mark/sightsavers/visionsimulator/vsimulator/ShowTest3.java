@@ -15,7 +15,6 @@ public class ShowTest3 extends Activity implements View.OnClickListener {
     Button buttontwo;
     Button buttonsix;
     Button buttontwntysix;
-    ResultsData data = ResultsData.getFirstInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,17 +35,17 @@ public class ShowTest3 extends Activity implements View.OnClickListener {
         switch (v.getId()) {
 
             case R.id.btntwo:{
-                Intent intent = new Intent(this,ShowResults.class);
+                Intent intent = new Intent(this,ShowResults3.class);
                 startActivity(intent);
             }
 
             case R.id.btnsix:{
-                Intent intent = new Intent(this,ShowResults.class);
+                Intent intent = new Intent(this,ShowResults3.class);
                 startActivity(intent);
             }
 
             case R.id.btntwntysix:{
-                Intent intent = new Intent(this,ShowResults.class);
+                Intent intent = new Intent(this,ShowResults3.class);
                 startActivity(intent);
             }
 

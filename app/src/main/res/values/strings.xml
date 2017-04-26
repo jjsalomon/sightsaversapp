@@ -32,4 +32,6 @@
     <string name="Cataract_Text">Cataract is caused by a buildup of protein that clouds the eye’s lens, leading to blurred vision and eventually blindness. For children, it’s vital that it’s caught in time, or it can cause the eye to stop developing, after which it can never be properly restored. Untreated cataract can mean no education, no income, no future and no possibility of escaping poverty.</string>
     <string name="sim_question">What do you see ?</string>
     <string name="title_activity_show_test2">ShowTest2</string>
+    <string name="title_activity_show_results2">ShowResults2</string>
+    <string name="title_activity_show_results3">ShowResults3</string>
 </resources>
